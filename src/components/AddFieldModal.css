@@ -1,0 +1,47 @@
+/* src/components/AddFieldModal.css */
+.modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    text-align: center;
+  }
+  
+  .field-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .field-list li {
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .field-list li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .close-modal {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
